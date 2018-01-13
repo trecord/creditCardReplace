@@ -13,6 +13,7 @@
 		0B0814B4200899D700A0DAAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B0814B3200899D700A0DAAD /* Assets.xcassets */; };
 		0B0814B7200899D700A0DAAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B0814B5200899D700A0DAAD /* LaunchScreen.storyboard */; };
 		0B0814BA200899D700A0DAAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0814B9200899D700A0DAAD /* main.m */; };
+		0B0814C22008A13300A0DAAD /* Luhn.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0814C02008A13300A0DAAD /* Luhn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0B0814B6200899D700A0DAAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B0814B8200899D700A0DAAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B0814B9200899D700A0DAAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B0814C02008A13300A0DAAD /* Luhn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Luhn.m; sourceTree = "<group>"; };
+		0B0814C12008A13300A0DAAD /* Luhn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Luhn.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		0B0814A9200899D700A0DAAD /* creditCardReplace */ = {
 			isa = PBXGroup;
 			children = (
+				0B0814C12008A13300A0DAAD /* Luhn.h */,
+				0B0814C02008A13300A0DAAD /* Luhn.m */,
 				0B0814AA200899D700A0DAAD /* AppDelegate.h */,
 				0B0814AB200899D700A0DAAD /* AppDelegate.m */,
 				0B0814AD200899D700A0DAAD /* ViewController.h */,
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B0814C22008A13300A0DAAD /* Luhn.m in Sources */,
 				0B0814AF200899D700A0DAAD /* ViewController.m in Sources */,
 				0B0814BA200899D700A0DAAD /* main.m in Sources */,
 				0B0814AC200899D700A0DAAD /* AppDelegate.m in Sources */,
